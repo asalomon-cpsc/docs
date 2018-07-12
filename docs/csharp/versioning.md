@@ -66,7 +66,7 @@ Lucky for you C# and the .NET ecosystem comes with features and techniques that 
 
 ### Assembly Binding Redirection
 
-You can use the `app.config` file to update the version of a library your app uses. By adding what is called a [*binding redirect*](https://msdn.microsoft.com/library/7wd6ex19(v=vs.110).aspx) your
+You can use the `app.config` file to update the version of a library your app uses. By adding what is called a [*binding redirect*](https://msdn.microsoft.com/library/7wd6ex19(v=vs.110).aspx) you
 can use the new library version without having to recompile your app. The following example shows how you would update
 your app's `app.config` file to use the `1.0.1` patch version of `ReferencedLibrary` instead of the `1.0.0` version it was originally compiled with.
 
